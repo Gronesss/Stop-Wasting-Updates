@@ -1,0 +1,12 @@
+{
+	"name" : "Stop Wasting Updates",
+	"description" : "Disables a substantial amount of pointless updates for units with extensions, saving performance.",
+	"author" : "RedFlame",
+	"contact" : "Discord: RedFlame#3870",
+	"version" : "1",
+	"priority" : "1000",
+	"color" : "0 0 1",
+	"hooks" : [
+		{ "hook_id" : "lib/units/scriptunitdata", "script_path" : "scriptunitdata.lua" }
+	]
+}
